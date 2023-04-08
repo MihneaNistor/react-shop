@@ -1,0 +1,41 @@
+.info {
+    max-width: 60%;
+    margin: 6em auto;
+}
+
+.info p {
+    font-size: 2.2em;
+    line-height: 1.6em;
+}
+
+.info button {
+    max-width: 10em;
+    max-height: 5em;
+    padding: .6em;
+    font-size: 2.2em;
+    margin-top: 2em;
+    background-color: #A4907C;
+    transition: 0.6s ease;
+
+}
+
+.info h1 {
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+.info a {
+    text-decoration: none;
+    color: black;
+}
+
+.info button:hover {
+    background-color: #F1DEC9;
+}
+
+@media only screen and (max-width: 600px) {
+    .info {
+        max-width: 80%;
+        margin: 6em 2em;
+    }
+}

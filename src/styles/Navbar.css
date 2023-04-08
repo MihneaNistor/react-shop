@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 8em;
+    width: 40%;
+    background: #C8B6A6;
+    /* opacity: 0.6; */
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+ h1 {
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: .3em;
+    padding-top: .4em;
+    color: #8D7B68;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3em;
+    font-size: 2em;
+}
+
+.menu svg {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.7em;
+}
+
+@media only screen and (max-width: 1300px) {
+    .navbar {
+        width: 80%;
+    }
+}

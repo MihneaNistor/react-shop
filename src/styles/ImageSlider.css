@@ -1,0 +1,50 @@
+.image-slider-flex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.image-slider {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+
+
+.image-slider img {
+    max-width: 100%;
+}
+
+  
+.changeImg {
+    display: flex;
+    flex-direction: row;
+}
+
+.changeImg button {
+  background-color: #C8B6A6;
+}
+  
+.circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+  
+.circles svg{
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 1300px) {
+  .image-slider img{
+      max-width: 70%;
+}
+.changeImg {
+    margin: 0 auto;
+    justify-content: center;
+}
+  
+}

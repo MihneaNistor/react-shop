@@ -1,0 +1,51 @@
+.footer {
+    height: auto;
+    background-color: #C8B6A6;
+    margin-top: 8em;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    padding-top: 1em;
+}
+
+.col a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 1.35em;
+    margin-top: 4em;
+}
+
+.footer-header {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+.col a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px) {
+    .columns {
+        flex-direction: column;
+    }
+    .col {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
